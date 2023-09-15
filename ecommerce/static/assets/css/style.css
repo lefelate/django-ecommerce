@@ -66,11 +66,12 @@ body {
     position: relative;
     margin: 20px 0 20px;
     width: 300px;
+    outline: none;
 }
 
 .form-control input {
-    /* background-color: transparent; */
-    border: none;
+    background-color: transparent;
+    border: 0;
     border-bottom: 2px dotted #656363;
     display: block;
     width: 100%;
