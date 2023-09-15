@@ -9,7 +9,6 @@
 
   <title>Ecommerce - 
   {% block title %}
-    Home
   {% endblock title %}
     </title>
   <meta content="ecommerce website, we deliver in no time" name="description">
@@ -42,6 +41,8 @@
 
   <!-- Template Main CSS File -->
   <link href="{%static 'assets/css/main.css' %}" rel="stylesheet">
+{% block head %}{% endblock head %}
+  {% block style %}{% endblock style %}
 
 </head>
 

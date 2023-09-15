@@ -1,1 +1,25 @@
 {% extends 'baseauth.html' %}
+{% load static %}
+{% block title %} Sign Up {% endblock title %}
+{%block head %}
+<link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
+{% endblock head %} {% block body %}
+
+<div class="container">
+  <h1>Please Login</h1>
+
+  <form action="" method="">
+      <div class="form-control">               
+          <input type="email" name="" value="" required>
+          <label for="">Email</label>
+      </div>
+      <div class="form-control">
+          <input type="password" name="" value="" required>
+          <label for="">Password</label>
+      </div>
+      <button class="btn">Login</button>
+      <p class="text">Don't have an account?<a href="#">Register</a></p>
+  </form>
+</div>
+
+{% endblock body %}
